@@ -1,0 +1,150 @@
+/********************************* CSS Styles for Login page*****************************************/
+/* Bordered form */
+/* For mobile phones: */
+*{
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  width: 100%;
+}
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #40514E;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 1rem;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #32a9a9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  background-color: #32a9a9;
+  display: block;
+  padding: 8px 16px;
+  border-radius: 1rem;
+  margin: 0;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 12px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 13%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 1.5rem;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+}
+a{
+	text-decoration: none;
+	padding-right: 1rem;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.login-form{
+	width: 50%;
+	margin: 1.5rem auto;
+	padding-bottom: 1rem;
+	background-color: #e9e2e2;
+	border-radius: 1rem;
+}
+.bottom-container{
+	background-color: #e9e2e2;
+	padding: 12px 0 10px;
+	margin-top: 1rem;
+}
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #119993);
+   background-image: -moz-linear-gradient(top, #11CDD4, #119993);
+   background-image: -ms-linear-gradient(top, #11CDD4, #119993);
+   background-image: -o-linear-gradient(top, #11CDD4, #119993);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #119993);
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   color: #FFFFFF;
+   font-family: 'Castoro', serif;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 11px;
+   -webkit-box-shadow: 0 0 3px 0 #000000;
+   -moz-box-shadow: 0 0 3px 0 #000000;
+   box-shadow: 0 0 3px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3BC;
+   background-image: -webkit-linear-gradient(top, #30E3BC, #2BC4AB);
+   background-image: -moz-linear-gradient(top, #30E3BC, #2BC4AB);
+   background-image: -ms-linear-gradient(top, #30E3BC, #2BC4AB);
+   background-image: -o-linear-gradient(top, #30E3BC, #2BC4AB);
+   background-image: -webkit-gradient(to bottom, #30E3BC, #2BC4AB);
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   border-radius: 100px;
+   text-decoration: none;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

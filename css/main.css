@@ -1,0 +1,86 @@
+/* For mobile phones: */
+*{
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+body{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #40514E;
+}
+div#info a{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #0f0f0f;
+}
+div#info a:hover{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #f05454;
+	font-size: 1.2rem;
+}
+div#info{
+	margin: auto;
+	padding: 25% 25%;
+	text-align: center;
+	background-color: #f1f1f1;
+}
+#access{
+	text-align: center;
+	background-color: #0f0f0f;
+	padding: 25% auto;
+}
+.div4s{
+	display: inline-block;
+	padding: 25% 0;
+	margin: 0 auto;
+}
+#access a{
+  color: #f05454;
+  transition: all 0.5s linear;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+#access a:hover{
+	color: #f1f1f1;
+  transition: all 0.5s linear;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+.info1{
+	background-color: #f1f1f1;
+	color: #0f0f0f;
+}
+.divhalf{
+	width: 50%;
+	padding: 25% 0;
+	margin: 0 auto;
+}
+#contact{
+	text-align: center;
+	background-color: #0f0f0f;
+	margin: 0 auto;
+	padding: 1rem;
+	color: #f1f1f1;
+}
+#contact a.footer-link{
+	text-decoration: none;
+	color: #f05454;
+}
+#contact a.footer-link:hover{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+#contact p{
+	font-size: 12px;
+}
